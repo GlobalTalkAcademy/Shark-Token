@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.points {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 10px 0;
+}
+
+.nav-bar button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.nav-bar button.active {
+    color: #1E90FF;
+}
+
+.task-item {
+    background-color: #222;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.task-item button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.invite-button {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
